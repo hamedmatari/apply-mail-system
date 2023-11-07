@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Blending on-demand and spot instances to lower costs for in-memory storage",
+    "cited": "72",
+    "year": "2016",
+    "description": "In cloud computing, workloads that lease instances on demand get to execute exclusively for a set time. In contrast, workloads that lease spot instances execute until a competing workload outbids the current lease. Spot instances cost less than on-demand instances, but few workloads can use spot instances because of the variable leasing period. We present BOSS, a framework that uses spot instances to reduce costs for in-memory storage workloads. BOSS uses on-demand instances to create and update objects. It uses spot instances to handle read-only queries. BOSS leases instances from multiple sites and exploits varying prices between the sites. When spot instances stop abruptly at one site, BOSS places newly created objects at other sites, reducing the impact on response time. BOSS proposes a novel, online replication approach (1) avoids placing data at too many sites and (2) provides O(1.5\u00a0\u2026"
+  },
+  {
+    "name": "Cadre: Carbon-aware data replication for geo-diverse services",
+    "cited": "51",
+    "year": "2015",
+    "description": "Internet services replicate data to geo-diverse sites around the world, often via consistent hashing. Collectively, these sites span multiple power authorities that independently control carbon emissions at each site. Serving data from a carbon-heavy site increases the service's carbon footprint, but it is hard to place data at sites that will have low emission rates without replicating to too many sites. We present CADRE, a carbon-aware data replication approach. CADRE forecasts emission rates at each site and replicates data to sites that combine together to yield low carbon footprints. It makes replication decisions online, i.e., When data is created, and thus avoids emissions caused by moving data frequently in response to changing emission rates. CADRE uses the multiple-choice secretary algorithm to replicate objects with large footprints to low emission sites. It models carbon footprints for each object using the\u00a0\u2026"
+  },
+  {
+    "name": "Data center sprinting: Enabling computational sprinting at the data center level",
+    "cited": "39",
+    "year": "2015",
+    "description": "Microprocessors may need to keep most of their cores off in the era of dark silicon due to thermal constraints. Recent studies have proposed Computational Sprinting, which allows a chip to temporarily exceed its power and thermal limits by turning on all its cores for a short time period, such that its computing performance is boosted for bursty computation demands. However, conducting sprinting in a data center faces new challenges due to power and thermal constraints at the data center level, which are exacerbated by recently proposed power infrastructure under-provisioning and reliance on renewable energy, as well as the increasing server density. In this paper, we propose Data Center Sprinting, a methodology that enables a data center to temporarily boost its computing performance by turning on more cores in the era of dark silicon, in order to handle occasional workload bursts. We demonstrate the\u00a0\u2026"
+  },
+  {
+    "name": "Maximizing the revenues of data centers in regulation market by coordinating with electric vehicles",
+    "cited": "10",
+    "year": "2015",
+    "description": "Frequency regulation is a major market service to reduce the undesired imbalance between power supply and demand in the power market. In order to participate in the regulation market, both the supply and demand sides need to be capable of flexibly adjusting their power generation and consumption, respectively. As the scale of Internet data centers is increasing rapidly, their significant power consumption has enabled them to become an important player in the regulation market for maximized profits and thus minimized operating expenses. On the other side, Plug-in Hybrid Electric Vehicles (PHEVs) have also recently been identified as a major participant in the regulation market, due to their large power demand for battery charging.In this paper, we propose a novel power management scheme that jointly leverages a data center and its employees\u2019 PHEVs to (1) maximize the revenues that the data center\u00a0\u2026"
+  },
+  {
+    "name": "Paying to save: Reducing cost of colocation data center via rewards",
+    "cited": "68",
+    "year": "2015",
+    "description": "Power-hungry data centers face an urgent pressure on reducing the energy cost. The existing efforts, despite being numerous, have primarily centered around owner-operated data centers (e.g., Google), leaving another critical data center segment - colocation data center (e.g., Equinix) which rents out physical space to multiple tenants for housing their own servers - much less explored. Colocations have a major barrier to achieve cost efficiency: server power management by individual tenants is uncoordinated. This paper proposes RECO (REward for COst reduction), which shifts tenants' power management from uncoordinated to coordinated, using financial reward as a lever. RECO pays (voluntarily participating) tenants for energy reduction such that the colocation operator's overall cost is minimized. RECO incorporates the time-varying operation environment (e.g., cooling efficiency, intermittent renewables\u00a0\u2026"
+  },
+  {
+    "name": "Online energy estimation of relational operations in database systems",
+    "cited": "25",
+    "year": "2015",
+    "description": "Data centers are well known to consume a large amount of energy. As databases are one of the major applications in a data center, building energy-aware database systems has become an active research topic recently. The quantification of the energy cost of database systems is an important task in design. In this paper, we report our recent efforts on this issue, with a focus on the energy cost estimation of query plans during query optimization. We start from building a series of physical models for energy estimation of individual relational operators based on their resource consumption patterns. As the execution of a query plan is a combination of multiple relational operators, we use the physical models as a basis for a comprehensive energy model for the entire query. To address the challenge of maintaining accuracy under system and workload dynamics, we develop an online scheme that dynamically adjusts\u00a0\u2026"
+  },
+  {
+    "name": "A sensor system for high-fidelity temperature distribution forecasting in data centers",
+    "cited": "8",
+    "year": "2014",
+    "description": "Data centers have become a critical computing infrastructure in the era of cloud computing. Temperature monitoring and forecasting are essential for preventing server shutdowns because of overheating and improving a data center\u2019s energy efficiency. This article presents a novel cyber-physical approach for temperature forecasting in data centers, one that integrates Computational Fluid Dynamics (CFD) modeling, in situ wireless sensing, and real-time data-driven prediction. To ensure forecasting fidelity, we leverage the realistic physical thermodynamic models of CFD to generate transient temperature distribution and calibrate it using sensor feedback. Both simulated temperature distribution and sensor measurements are then used to train a real-time prediction algorithm. As a result, our approach reduces not only the computational complexity of online temperature modeling and prediction, but also the number\u00a0\u2026"
+  },
+  {
+    "name": "Integrated power management of data centers and electric vehicles for energy and regulation market participation",
+    "cited": "73",
+    "year": "2014",
+    "description": "Large scale data centers and Plug-in Electric Vehicles (PEVs) are valuable assets that can be used to balance power grid frequency by adjusting their power consumption. This paper considers the joint power management of a data center and the PEVs of its employees for frequency regulation. The problem involves designing a real-time power control strategy for the integrated assets to collectively track the assigned frequency regulation signal, as well as developing a market planning strategy that determines the best baseload and capacity (regulation up/down) values over a multi-hour operating period to minimize energy cost and maximize regulation service revenue. A two-layer hierarchical power management framework is proposed, which enables a systematic design of both the tracking control and market planning problems. The proposed framework is evaluated based on real workload, regulation signal\u00a0\u2026"
+  },
+  {
+    "name": "A system for energy-efficient data management",
+    "cited": "35",
+    "year": "2014",
+    "description": "Energy consumption of computer systems has increased at a steep rate in recent years. Following extensive energyrelated research and practice in the hardware and OS communities, much attention has been paid to developing energy-efficient applications. With database systems being a heavy energy consumer in modern data centers, we face the challenge of designing DBMSs with energy as a first-class performance goal. This paper presents our on-goingwork in designing and implementing a DBMS that enables significant energy conservations while maintaining other performance targets. We follow two new strategies in DBMS implementation to achieve our system design goal. The first one is to change the resource consumption patterns via energy-aware query optimization and reorganizing data records to enable load consolidation in disks. The second strategy is active control of power modes of hardware\u00a0\u2026"
+  },
+  {
+    "name": "Joint power optimization of data center network and servers with correlation analysis",
+    "cited": "154",
+    "year": "2014",
+    "description": "Data center power optimization has recently received a great deal of research attention. For example, server consolidation has been demonstrated as one of the most effective energy saving methodologies. Likewise, traffic consolidation has also been recently proposed to save energy for data center networks (DCNs). However, current research on data center power optimization focuses on servers and DCN separately. As a result, the optimization results are often inferior, because server consolidation without considering the DCN may cause traffic congestion and thus degraded network performance. On the other hand, server consolidation may change the DCN topology, allowing new opportunities for energy savings. In this paper, we propose PowerNetS, a power optimization strategy that leverages workload correlation analysis to jointly minimize the total power consumption of servers and the DCN. The design\u00a0\u2026"
+  },
+  {
+    "name": "Performance-controlled server consolidation for virtualized data centers with multi-tier applications",
+    "cited": "36",
+    "year": "2014",
+    "description": "Modern data centers must provide performance assurance for complex system software such as multi-tier web applications. In addition, the power consumption of data centers needs to be minimized to reduce operating costs and avoid system overheating. Various power-efficient performance management strategies have been proposed based on dynamic voltage and frequency scaling (DVFS). Virtualization technologies have also made it possible to consolidate multiple virtual machines (VMs) onto a smaller number of active physical servers for even greater power savings, but at the cost of a higher overhead. This paper proposes a performance-controlled power optimization solution for virtualized server clusters with multi-tier applications. While most existing work relies on either DVFS or server consolidation in a separate manner, our solution utilizes both strategies for maximized power savings by integrating\u00a0\u2026"
+  },
+  {
+    "name": "Exploiting thermal energy storage to reduce data center capital and operating expenses",
+    "cited": "70",
+    "year": "2014",
+    "description": "Power shaving has recently been proposed to dynamically shave the power peaks of a data center with energy storage devices (ESD), such that more servers can be safely hosted. In addition to the reduction of capital investment (cap-ex), power shaving also helps cut the electricity bills (op-ex) of a data center by reducing the high utility tariffs related to peak power. However, existing work on power shaving focuses exclusively on electrical ESDs (e.g., UPS batteries) to shave the server-side power demand. In this paper, we propose TE-Shave, a generalized power shaving framework that exploits both UPS batteries and a new knob, thermal energy storage (TES) tanks equipped in many data centers. Specifically, TE-Shave utilizes stored cold water or ice to manipulate the cooling power, which accounts for 30-40% of the total power cost of a data center. Our extensive evaluation with real-world workload traces\u00a0\u2026"
+  },
+  {
+    "name": "Power attack: an increasing threat to data centers.",
+    "cited": "85",
+    "year": "2014",
+    "description": "Entering the era of cloud computing, data centers are scaling in a fast pace. However, as the increasing number of servers being deployed in data centers, the data center power distribution systems have already approached peak capacities. Since the upgrades of the power systems are extremely expensive, power oversubscription has become a trend in modern data centers as a cost-effective way to handle power provisioning. Under benign workload of data centers, power oversubscription works well as servers rarely peak simultaneously. However, power oversubscription makes data centers vulnerable to malicious workload that can generate power spikes on multiple servers at the same time, which may cause branch circuit breakers to trip and lead to undesired power outages. In this paper, we introduce a new security concept called power attack and exploit the attack vectors in platform as a service (PaaS), infrastructure as a service (IaaS), and software as a service (SaaS) cloud environments, respectively. To demonstrate the feasibility of launching a power attack, we conduct series of hardware experiments and datacenter-level simulations. Moreover, we give a detailed analysis on how different power management methods can affect a power attack and how to mitigate such an attack. Our experimental results and analysis show that power attacks will pose a serious threat to modern data centers and should be taken into account while deploying new high-density servers and power management techniques."
+  },
+  {
+    "name": "Coordinating liquid and free air cooling with workload allocation for data center power minimization",
+    "cited": "40",
+    "year": "2014",
+    "description": "Data centers are seeking more efficient cooling techniques to reduce their operating expenses, because cooling can account for 30-40% of the power consumption of a data center. Recently, liquid cooling has emerged as a promising alternative to traditional air cooling, because it can help eliminate undesired air recirculation. Another emerging technology is free air cooling, which saves chiller power by utilizing outside cold air for cooling. Some existing data centers have already started to adopt both liquid and free air cooling techniques for significantly improved cooling efficiency and more data centers are expected to follow."
+  },
+  {
+    "name": "Maximizing the detection probability of overheating server components with sensor placement based on thermal dynamics",
+    "cited": "3",
+    "year": "2013",
+    "description": "Server overheating has become a well-known issue in today's data centers that host a large number of high-density servers. The current practice of server overheating detection is to monitor the server inlet temperature with the temperature sensor on the server enclosure, or the CPU temperature with on-die thermal sensors. However, this is in contrast to the fact that different components in a server may have different overheating thresholds, which are closely related to their respective thermal failure rates and expected lifetimes. Moreover, the thermal correlation between the inlet (or CPU) and other server components can be different for every server model. As a result, relying on the single inlet or CPU temperature for server overheating detection is over-simplistic, which may lead to either degraded detection performance or false alarms that can result in excessive cooling power, leading to unnecessarily low inlet\u00a0\u2026"
+  },
+  {
+    "name": "DutyCon: a dynamic duty-cycle control approach to end-to-end delay guarantees in wireless sensor networks",
+    "cited": "20",
+    "year": "2013",
+    "description": "It is well known that periodically putting nodes into sleep can effectively save energy in wireless sensor networks at the cost of increased communication delays. However, most existing work mainly focuses on the static sleep scheduling, which cannot guarantee the desired delay when the network conditions change dynamically. In many applications with user-specified end-to-end delay requirements, the duty cycle of every node should be tuned individually at runtime based on the network conditions to achieve the desired end-to-end delay guarantees and energy efficiency. In this article, we propose DutyCon, a control theory-based dynamic duty-cycle control approach. DutyCon decomposes the end-to-end delay guarantee problem into a set of single-hop delay guarantee problems along each data flow in the network. We then formulate the single-hop delay guarantee problem as a dynamic feedback control\u00a0\u2026"
+  },
+  {
+    "name": "Data center power control for frequency regulation",
+    "cited": "34",
+    "year": "2013",
+    "description": "The power consumption of a data center with a large number of computer servers can be controlled precisely on fast timescales, making data centers rather valuable assets to the electric grid. This paper explores the potential of using large-scale data centers to provide frequency regulation. In particular, Dynamic Voltage Frequency Scaling (DVFS) is employed to adjust the power consumptions of individual computer servers. An aggregated power response model is developed for the entire data center. Service response time model is incorporated to ensure performance of the data center. A novel power management strategy is then proposed to control the CPU frequencies of individual servers to follow a given regulation signal while respecting desired response time requirement. Simulations based on real workload traces and real regulation signals are performed. The results indicate that the regulation signal can\u00a0\u2026"
+  },
+  {
+    "name": "Synthesis and Properties of a Flexible Curing Agent.",
+    "cited": "1",
+    "year": "2013",
+    "description": "This paper presents the synthesis of a new type of flexible epoxy curing agent and an approach to improve the toughness of epoxy resin by curing without reducing the strength and modulus of the resin-cured material. The results show that the degree of toughness reaches maximum values when the flexible curing agent is applied at weight percentages (wt.%) between 10 and 15%. When the amount of flexible curing agent added to epoxy resin weight is 10 wt.%, the impact toughness and fracture toughness increases by 33.3% and 96.3%, respectively, compared with the pure epoxy resin. When the amount of flexible curing agent added to epoxy is 10 wt.%, the resulting impact thoughness of the material is 19.5 kJ m-2 at-50 C, the impact toughness of pure epoxy resin is only 7.96 kJ m-2."
+  },
+  {
+    "name": "Dynamic energy estimation of query plans in database systems",
+    "cited": "35",
+    "year": "2013",
+    "description": "Data centers are well known to consume large amounts of energy. Since database is one of the major applications in a typical data center, building energy-aware database systems has become an active research topic recently. The quantification of the energy cost of database systems is an important task in designing such systems. In this paper, we report our recent efforts on this topic, with a focus on the energy cost estimation of query plans during query optimization. We start from building a series of physical models for energy estimation of individual relational operators based on their resource consumption patterns. Since the execution of individual queries is a combination of relational operators, we use the physical models as a basis for a comprehensive energy cost estimation model for entire query plans. To further improve model accuracy under system dynamics and the variations of workload characteristics\u00a0\u2026"
+  },
+  {
+    "name": "Joint management of data centers and electric vehicles for maximized regulation profits",
+    "cited": "23",
+    "year": "2013",
+    "description": "Frequency regulation is a major market service to reduce the undesired imbalance between power supply and demand in the power market. In order to participate in the regulation market, both the supply and demand sides need to be capable of flexibly adjusting their power generation and consumption, respectively. As the scale of Internet data centers is increasing rapidly, their significant power consumption has enabled them to become an important player in the regulation market for maximized profits and thus minimized operating expenses. On the other side, Plug-in Hybrid Electric Vehicles (PHEVs) have also recently been identified as a major participant in the regulation market, due to their large power demand for battery charging. In this paper, we propose a novel power management scheme that jointly leverages a data center and its employees' PHEVs to 1) maximize the revenues that the data center\u00a0\u2026"
+  }
+]
